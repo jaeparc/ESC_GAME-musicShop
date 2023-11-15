@@ -144,63 +144,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.92853045, y: 0.9759988, z: 1.6342803}
   m_Center: {x: -0.08882791, y: -1.3183798, z: 1.6967854}
---- !u!1001 &108180119
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -13.607229
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.50496
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
-      propertyPath: m_Name
-      value: Blockout_Enigme
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 893a2b85cfdea1440be24acb2f04e35e, type: 3}
 --- !u!64 &177053458
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1591,4 +1534,3 @@ SceneRoots:
   - {fileID: 653684549}
   - {fileID: 1479158746}
   - {fileID: 1396457232}
-  - {fileID: 108180119}

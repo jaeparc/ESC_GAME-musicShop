@@ -8,12 +8,18 @@ public class PochetteVinyle : MonoBehaviour
     public Transform vinylAppearancePosition;
 
     public void Selected(){
-        if(vinylGO==null)
+        if(vinylGO==null){
             vinylGO = Instantiate(vinylPrefab,vinylAppearancePosition);
+            vinylGO.GetComponent<vinyle>().pochette = gameObject;
+        }
     }
 
     public void Deselected(){
         if(!vinylGO.GetComponent<vinyle>().select)
             Destroy(vinylGO);
+    }
+
+    public void putBackInside(){
+        
     }
 }

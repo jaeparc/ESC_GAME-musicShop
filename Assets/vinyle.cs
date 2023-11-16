@@ -7,6 +7,7 @@ public class vinyle : MonoBehaviour
 {
     public bool select;
     public AudioClip music;
+    public GameObject pochette;
 
     public void Selected(){
         select = true;

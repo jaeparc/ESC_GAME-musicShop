@@ -303,6 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   select: 0
+  music: {fileID: 8300000, guid: 4678daea73b6d5d439e075300cdb96aa, type: 3}
 --- !u!65 &6128171908052696949
 BoxCollider:
   m_ObjectHideFlags: 0

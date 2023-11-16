@@ -18,8 +18,4 @@ public class PochetteVinyle : MonoBehaviour
         if(!vinylGO.GetComponent<vinyle>().select)
             Destroy(vinylGO);
     }
-
-    public void putBackInside(){
-        
-    }
 }

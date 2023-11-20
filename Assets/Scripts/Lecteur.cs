@@ -28,5 +28,6 @@ public class Lecteur : MonoBehaviour
             speaker.GetComponent<AudioSource>().Pause();
             isPlaying = true;
         }
+        Debug.Log(speaker.GetComponent<AudioSource>().isPlaying);
     }
 }

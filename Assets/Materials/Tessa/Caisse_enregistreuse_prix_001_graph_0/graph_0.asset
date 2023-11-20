@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: graph_0
   m_EditorClassIdentifier: 
   AssetPath: Assets/Materials/Tessa/Caisse_enregistreuse_prix.001.sbsar
-  RawData: {fileID: 0}
+  RawData: {fileID: -244192453324840774, guid: 0fc3018a24323854a93cd8c665ec7a82, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0

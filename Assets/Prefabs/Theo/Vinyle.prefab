@@ -132,7 +132,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 5
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   select: 0
   music: {fileID: 8300000, guid: 4678daea73b6d5d439e075300cdb96aa, type: 3}
-  pochette: {fileID: 0}
+  boiteMusique: {fileID: 0}
 --- !u!65 &6128171908052696949
 BoxCollider:
   m_ObjectHideFlags: 0

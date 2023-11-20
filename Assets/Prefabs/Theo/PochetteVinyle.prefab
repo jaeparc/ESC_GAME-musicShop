@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c700ab480a757b948a71580598688f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  supportPrefab: {fileID: 9009259157013683002}
+  supportPrefab: {fileID: 62938701621583375, guid: 03e3bbc1d8f0f2a468e350d3d85f02a9, type: 3}
   supportInstance: {fileID: 0}
   supportAppearancePosition: {fileID: 6407608963395716300}
 --- !u!1 &9028869454575252986

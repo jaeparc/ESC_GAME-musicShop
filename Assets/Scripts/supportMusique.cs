@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class vinyle : MonoBehaviour
+public class supportMusique : MonoBehaviour
 {
     public bool select;
     public AudioClip music;
-    public GameObject pochette;
+    public GameObject boiteMusique;
 
     public void Selected(){
         select = true;

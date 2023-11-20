@@ -31,8 +31,8 @@ Transform:
   m_GameObject: {fileID: 62938701621583375}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.87272, y: 0.039203454, z: 0.87272}
+  m_LocalPosition: {x: 0, y: -2.8e-14, z: -8e-15}
+  m_LocalScale: {x: 0.87272, y: 0.008934467, z: 0.87272}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -304,6 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   select: 0
   music: {fileID: 8300000, guid: 4678daea73b6d5d439e075300cdb96aa, type: 3}
+  pochette: {fileID: 0}
 --- !u!65 &6128171908052696949
 BoxCollider:
   m_ObjectHideFlags: 0

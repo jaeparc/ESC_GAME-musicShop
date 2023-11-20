@@ -11,7 +11,7 @@ public class Lecteur : MonoBehaviour
 
     public void insertMusic(){
         contenuInserted = slot.GetComponent<XRSocketInteractor>().GetOldestInteractableSelected().transform.gameObject;
-        speaker.GetComponent<AudioSource>().clip = contenuInserted.GetComponent<vinyle>().music;
+        speaker.GetComponent<AudioSource>().clip = contenuInserted.GetComponent<supportMusique>().music;
     }
 
     public void ejectMusic(){

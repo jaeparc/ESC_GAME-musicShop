@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: graph_0
   m_EditorClassIdentifier: 
   AssetPath: Assets/Materials/Tessa/horloge/holorge_horloge.sbsar
-  RawData: {fileID: 0}
+  RawData: {fileID: -244192453324840774, guid: 325c05de6f3810840a9d88f8f811ba97, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
       Index: 0
       Type: 8
       Channel: baseColor
-    OutputTexture: {fileID: 0}
+    OutputTexture: {fileID: 2800000, guid: 01f66af44ceaf994784530e06d437f93, type: 3}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
       Index: 1
       Type: 8
       Channel: normal
-    OutputTexture: {fileID: 0}
+    OutputTexture: {fileID: 2800000, guid: 98105eb6f359713408efd3de4ffb230e, type: 3}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
       Index: 2
       Type: 8
       Channel: metallic
-    OutputTexture: {fileID: 0}
+    OutputTexture: {fileID: 2800000, guid: 6bca1cbab758cf34682f270fe562c80c, type: 3}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -93,7 +93,7 @@ MonoBehaviour:
       Index: 4
       Type: 8
       Channel: height
-    OutputTexture: {fileID: 0}
+    OutputTexture: {fileID: 2800000, guid: 6e7a06afdfb4d4740b2cdd1ccd3853fa, type: 3}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -110,9 +110,9 @@ MonoBehaviour:
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
-  OutputMaterial: {fileID: 0}
+  OutputMaterial: {fileID: 2100000, guid: 4d51b8f1d8a16d64b87619490fcf79d9, type: 2}
   DefaultPreset: " <sbspreset pkgurl=\"pkg://holorge_horloge\" label=\"\" >\n </sbspreset>\n"
-  MaterialShader: 
+  MaterialShader: Standard
   RenderTextures: 0
   OutputRemaped: 0
   Presets: []

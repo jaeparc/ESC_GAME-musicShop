@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: graph_0
   m_EditorClassIdentifier: 
   AssetPath: Assets/Materials/tobogan_tobogan.sbsar
-  RawData: {fileID: -244192453324840774, guid: 077841cf073b9dc4282027cbd9efb2ca, type: 3}
+  RawData: {fileID: 0}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: d3640c96-5b66-4665-8a3b-53d79c177311
+  GUID: d7049a14-9386-47ba-a695-77c914a37a7e
   Index: 0
   Input: []
   Output:
@@ -29,7 +29,7 @@ MonoBehaviour:
       Index: 0
       Type: 8
       Channel: baseColor
-    OutputTexture: {fileID: 2800000, guid: 51538267700b8ed4c835477ebf891a2f, type: 3}
+    OutputTexture: {fileID: 0}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
       Index: 1
       Type: 8
       Channel: normal
-    OutputTexture: {fileID: 2800000, guid: 99599d8f47773bf4787fda21b55aca08, type: 3}
+    OutputTexture: {fileID: 0}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
       Index: 2
       Type: 8
       Channel: metallic
-    OutputTexture: {fileID: 2800000, guid: 1912e750dfb9d4c4493c557badbb2fff, type: 3}
+    OutputTexture: {fileID: 0}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -93,7 +93,7 @@ MonoBehaviour:
       Index: 4
       Type: 8
       Channel: height
-    OutputTexture: {fileID: 2800000, guid: 85a8083cba344a843a03fd625298e395, type: 3}
+    OutputTexture: {fileID: 0}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -110,9 +110,9 @@ MonoBehaviour:
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
-  OutputMaterial: {fileID: 2100000, guid: 504257c62762fc54e9dada5b05b02b66, type: 2}
+  OutputMaterial: {fileID: 0}
   DefaultPreset: " <sbspreset pkgurl=\"pkg://tobogan_tobogan\" label=\"\" >\n </sbspreset>\n"
-  MaterialShader: Standard
+  MaterialShader: 
   RenderTextures: 0
   OutputRemaped: 0
   Presets: []

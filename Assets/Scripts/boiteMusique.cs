@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class boiteMusique : MonoBehaviour
 {
+    //COUCOU
     public GameObject supportPrefab, supportInstance;
     public Transform supportAppearancePosition;
 

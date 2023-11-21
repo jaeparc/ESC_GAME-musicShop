@@ -6,6 +6,7 @@ public class boiteMusique : MonoBehaviour
 {
     public GameObject supportPrefab, supportInstance;
     public Transform supportAppearancePosition;
+    public Texture fiche;
 
     public void Selected(){
         if(supportInstance==null){

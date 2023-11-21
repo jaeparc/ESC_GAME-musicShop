@@ -607,7 +607,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   supportPrefab: {fileID: 62938701621583375, guid: 03e3bbc1d8f0f2a468e350d3d85f02a9, type: 3}
   supportInstance: {fileID: 0}
+  music: {fileID: 8300000, guid: 4678daea73b6d5d439e075300cdb96aa, type: 3}
   supportAppearancePosition: {fileID: 6407608963395716300}
+  socket: {fileID: 0}
+  fiche: {fileID: 0}
 --- !u!1 &9028869454575252986
 GameObject:
   m_ObjectHideFlags: 0

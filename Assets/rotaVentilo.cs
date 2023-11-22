@@ -19,6 +19,6 @@ public class rotaVentilo : MonoBehaviour
 
     void rota(){
         float realSpeed = speed*Time.deltaTime;
-        transform.rotation += Quaternion.Euler(0,0,realSpeed);
+        transform.Rotate(0,0,realSpeed);
     }
 }

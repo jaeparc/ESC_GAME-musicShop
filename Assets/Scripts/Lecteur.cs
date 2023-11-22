@@ -30,4 +30,16 @@ public class Lecteur : MonoBehaviour
         }
         Debug.Log(speaker.GetComponent<AudioSource>().isPlaying);
     }
+
+    public void ejectButton(){
+        if(!GetComponent<Animator>().GetBool("ouverture")){
+            GetComponent<Animator>().SetBool("ouverture",true);
+            slot.SetActive(true);
+            ejectMusic();
+        } else {
+            GetComponent<Animator>().SetBool("ouverture",false);
+            insertMusic();
+            slot.SetActive(false);
+        }
+    }
 }

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: graph_0
   m_EditorClassIdentifier: 
   AssetPath: Assets/Materials/Eve/SYNTHE/CLAVIER_NORMAL/clavier_normal_synthe_touches_blanches_synthe.009.sbsar
-  RawData: {fileID: -244192453324840774, guid: 4f244d909f07b7347b76e18ceefc36e4, type: 3}
+  RawData: {fileID: 0}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: 60e878fc-4d67-45e4-859b-9fd2fd0e1eaa
+  GUID: fef28048-c073-4212-9160-f8424d6a14fc
   Index: 0
   Input: []
   Output:
@@ -98,8 +98,8 @@ MonoBehaviour:
   DefaultPreset: " <sbspreset pkgurl=\"pkg://clavier_normal_synthe_touches_blanches_synthe.009\"
     label=\"\" >\n </sbspreset>\n"
   MaterialShader: 
-  RenderTextures: 1
-  OutputRemaped: 1
+  RenderTextures: 0
+  OutputRemaped: 0
   Presets: []
   references:
     version: 2

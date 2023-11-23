@@ -11,24 +11,27 @@ public class Lecteur : MonoBehaviour
 
     public void insertMusic(){
         contenuInserted = slot.GetComponent<XRSocketInteractor>().GetOldestInteractableSelected().transform.gameObject;
-        speaker.GetComponent<AudioSource>().clip = contenuInserted.GetComponent<supportMusique>().music;
+        if(speaker != null)
+            speaker.GetComponent<AudioSource>().clip = contenuInserted.GetComponent<supportMusique>().music;
     }
 
     public void ejectMusic(){
         contenuInserted = null;
-        speaker.GetComponent<AudioSource>().clip = null;
+        if(speaker != null)
+            speaker.GetComponent<AudioSource>().clip = null;
     }
 
     public void playSong(){
-        if(isPlaying){
-            speaker.GetComponent<AudioSource>().Play();
-            isPlaying = false;
+        if(speaker!=null){
+            if(isPlaying){
+                speaker.GetComponent<AudioSource>().Play();
+                isPlaying = false;
+            }
+            else{
+                speaker.GetComponent<AudioSource>().Pause();
+                isPlaying = true;
+            }
         }
-        else{
-            speaker.GetComponent<AudioSource>().Pause();
-            isPlaying = true;
-        }
-        Debug.Log(speaker.GetComponent<AudioSource>().isPlaying);
     }
 
     public void ejectButton(){

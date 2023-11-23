@@ -401,6 +401,17 @@
                 },
                 {
                     "name": "",
+                    "id": "7004947b-8b25-420e-b9d6-7fd8bf891acf",
+                    "path": "<Keyboard>/n",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Primary Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ab5101fb-5323-4b55-9fe7-e6c377cf7d82",
                     "path": "<Keyboard>/9",
                     "interactions": "",

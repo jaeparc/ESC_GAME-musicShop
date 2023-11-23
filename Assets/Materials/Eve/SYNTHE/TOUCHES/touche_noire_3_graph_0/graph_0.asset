@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: graph_0
   m_EditorClassIdentifier: 
   AssetPath: Assets/Materials/Eve/SYNTHE/TOUCHES/touche_noire_3.sbsar
-  RawData: {fileID: 0}
+  RawData: {fileID: -244192453324840774, guid: 6c7321d31aae55844b22290f4715ed3e, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
       Index: 0
       Type: 8
       Channel: baseColor
-    OutputTexture: {fileID: 0}
+    OutputTexture: {fileID: 2800000, guid: 426f1763b89356846a55ab3076fc5e57, type: 3}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
       Index: 1
       Type: 8
       Channel: metallic
-    OutputTexture: {fileID: 0}
+    OutputTexture: {fileID: 2800000, guid: 67fd42cc13f5cd641929392600552db6, type: 3}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -61,7 +61,7 @@ MonoBehaviour:
       Index: 2
       Type: 8
       Channel: normal
-    OutputTexture: {fileID: 0}
+    OutputTexture: {fileID: 2800000, guid: 50b3ead2210bd0e428c8c117b1466425, type: 3}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 0
@@ -77,7 +77,7 @@ MonoBehaviour:
       Index: 3
       Type: 8
       Channel: emissive
-    OutputTexture: {fileID: 0}
+    OutputTexture: {fileID: 2800000, guid: 8f8a270306451c2428afa3638af08c56, type: 3}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -94,10 +94,10 @@ MonoBehaviour:
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
-  OutputMaterial: {fileID: 0}
+  OutputMaterial: {fileID: 2100000, guid: 2b05e1d963ca6cd4db433b16f92788e7, type: 2}
   DefaultPreset: " <sbspreset pkgurl=\"pkg://touche3_noire_touches_noires_synthe.003\"
     label=\"\" >\n </sbspreset>\n"
-  MaterialShader: 
+  MaterialShader: Standard
   RenderTextures: 0
   OutputRemaped: 0
   Presets: []

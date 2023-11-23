@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: graph_0
   m_EditorClassIdentifier: 
   AssetPath: Assets/Materials/Eve/SYNTHE/SYNTHE/synthe_planche_table_synthe.sbsar
-  RawData: {fileID: -244192453324840774, guid: be6c23dcffda7a049b24205ff5dbc6c2, type: 3}
+  RawData: {fileID: 0}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: 5f88b58c-4c69-4d5f-b207-b876869e0d0c
+  GUID: 28bde8ae-845c-4981-aded-0f5e9c1e2c7c
   Index: 0
   Input: []
   Output:
@@ -29,7 +29,7 @@ MonoBehaviour:
       Index: 0
       Type: 8
       Channel: baseColor
-    OutputTexture: {fileID: 2800000, guid: a7abc1503502af144a25d25969a7df77, type: 3}
+    OutputTexture: {fileID: 0}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
       Index: 1
       Type: 8
       Channel: metallic
-    OutputTexture: {fileID: 2800000, guid: 052722b8083abcb42b965ef7a968d48f, type: 3}
+    OutputTexture: {fileID: 0}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -61,7 +61,7 @@ MonoBehaviour:
       Index: 2
       Type: 8
       Channel: normal
-    OutputTexture: {fileID: 2800000, guid: 2f5cec9240f5c70479e18506554b1c74, type: 3}
+    OutputTexture: {fileID: 0}
     sRGB: 0
     IsVirtual: 0
     IsAlphaAssignable: 0
@@ -77,7 +77,7 @@ MonoBehaviour:
       Index: 3
       Type: 8
       Channel: emissive
-    OutputTexture: {fileID: 2800000, guid: 9485ec7193e494f4abc6bacfb2d0bc8e, type: 3}
+    OutputTexture: {fileID: 0}
     sRGB: 1
     IsVirtual: 0
     IsAlphaAssignable: 1
@@ -94,10 +94,10 @@ MonoBehaviour:
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
-  OutputMaterial: {fileID: 2100000, guid: 58a5417b68e01464ab4d42642d3bd354, type: 2}
+  OutputMaterial: {fileID: 0}
   DefaultPreset: " <sbspreset pkgurl=\"pkg://synthe_planche_table_synthe\" label=\"\"
     >\n </sbspreset>\n"
-  MaterialShader: Standard
+  MaterialShader: 
   RenderTextures: 0
   OutputRemaped: 0
   Presets: []

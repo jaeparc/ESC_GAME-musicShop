@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class graveur : MonoBehaviour
 {
     public GameObject[] lecteurAssocies = new GameObject[1];
+    public GameObject voyantCassette;
     public AudioClip music;
     public GameObject keyObject, socket;
     public Transform keyObjectAppearancePos;
@@ -20,6 +21,14 @@ public class graveur : MonoBehaviour
         for(int i = 0; i < lecteurAssocies.Length; i++){
             if(!lecteurAssocies[i].GetComponent<enigme3>().matchingAudios)
                 isOk = false;
+        }
+    }
+
+    public void cassetteInserted(){
+        if(socket.GetComponent<XRSocketInteractor>().GetOldestInteractableSelected().transform.gameObject.GetComponent<supportMusique>().music == null){
+            voyantCassette.GetComponent<Renderer>().material.SetColor("_Color",Color.green);
+        }else{
+            voyantCassette.GetComponent<Renderer>().material.SetColor("_Color",Color.red);
         }
     }
 

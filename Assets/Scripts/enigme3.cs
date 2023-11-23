@@ -5,7 +5,7 @@ using UnityEngine;
 public class enigme3 : MonoBehaviour
 {
     public AudioClip targetAudio;
-    public GameObject voyant;
+    public GameObject voyantLecteur,voyantGraveur;
     public bool matchingAudios;
 
     void Update(){
@@ -23,9 +23,12 @@ public class enigme3 : MonoBehaviour
     }
 
     void switchVoyant(){
-        if(matchingAudios)
-            voyant.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
-        else
-            voyant.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+        if(matchingAudios){
+            voyantLecteur.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
+            voyantGraveur.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
+        }else{
+            voyantLecteur.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+            voyantGraveur.GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+        }
     }
 }

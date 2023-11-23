@@ -11,6 +11,7 @@ public class cassetteController : MonoBehaviour
     public void lockCoin(int id){
         sockets[id].GetComponent<XRSocketInteractor>().GetOldestInteractableSelected().transform.gameObject.GetComponent<MeshCollider>().enabled = false;
         socketLocked[id] = true;
+        sockets[id].GetComponent<Renderer>().material.SetColor("_Color",Color.green);
         testDone();
     }
 
